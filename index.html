@@ -1,0 +1,415 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Africa U Radio</title>
+    <!--=================================M eta tags=================================-->
+    <meta name="description" content="">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no">
+    <!--=================================S tyle Sheets=================================-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,400italic,300,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/dl-menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/customizer.css">
+    <link id="skinColorChanger" rel="stylesheet" href="assets/css/empty.css">
+    <!--=================================P lace color files here ( right after
+    main.css ) for example <link rel="stylesheet" type="text/css" href="assets/css/colors/color-name.css">
+
+===================================-->
+    <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <link rel="stylesheet" href="http://www.radiojar.com/wrappers/api-plugins/v1/css/player.css">
+    <link rel="stylesheet" href="http://www.radiojar.com/wrappers/api-plugins/v1/css/current-show.css">
+  </head><body>
+    <!--===============================P reloading Splash Screen===================================-->
+    <div class="pageLoader"></div>
+    <div class="majorWrap">
+      <!--========================================H eader Content===========================================-->
+      <header id="sticktop" class="doc-header">
+        <!--========================================R adio Stream===========================================-->
+        <!--<section id="audio-player-radio" class="jp-radioPlayer" data-radio-url="http://178.32.62.154:9764/media/stream"-->
+        <section id="audio-player-radio" class="jp-radioPlayer" data-radio-url="http://stream.radiojar.com/2eqrw5965twtv" data-title="Streaming Radio Station AfricaU">
+          <div class="container">
+            <div id="player-instance-radio" class="jp-jplayer"></div>
+            <div class="controls jp-controls-holder">
+              <div class="play-pause jp-play pc-play"></div>
+              <div class="play-pause jp-pause fa pc-pause" style=" display:none"></div>
+            </div>
+            <div class="jp-volume-controls">
+              <button class="sound-control pc-volume jp-mute"></button>
+              <button class="sound-control pc-mute jp-unmute"></button>
+              <div class="jp-volume-bar" style="display: none;">
+                <div class="jp-volume-bar-value" style="width: 1.4737%;"></div>
+              </div>
+            </div>
+            <h5 class="jp-title"></h5>
+          
+          </div>
+        </section>
+        <!--========================================N av===========================================-->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">
+
+                    <img src="assets\img\basic\logo.png" alt="">
+
+                </a>
+            </div>
+            <div id="dl-menu" class="radio-style xv-menuwrapper responsive-menu">
+              <button class="menuTrigger">
+                <i class="fa fa-navicon"></i>
+              </button>
+              <div class="clearfix"></div>
+              <ul class="dl-menu hidden-md">
+                <li class="parent active">
+                  <a href="index.html">Home</a>
+                </li>
+                <!-- <li>
+                  <a href="albums.html" class="hidden-lg hidden-md hidden-sm hidden-xs">Albums</a>
+                </li>
+                <li>
+                  <a href="blog.html" class="hidden-lg hidden-md hidden-sm hidden-xs">News &amp; Blog</a>
+                </li>
+                <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="store.html" class="hidden-lg hidden-md hidden-sm hidden-xs">Store</a>
+                </li>
+                -->
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li class="parent">
+                  <a href="#" class="hidden-lg hidden-md hidden-sm hidden-xs">Pages</a>
+                  <!-- <ul class="dl-submenu">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                  <a href="album-single.html">Album Single Page</a>
+                    </li>
+                    <li>
+                      <a href="blog-single.html">Blog Single Page</a>
+                    </li>
+                  </ul>
+                   -->
+                </li>
+              </ul>
+            </div>
+            <!-- /dl-menuwrapper -->
+          </div>
+        </nav>
+      </header>
+      <div id="ajaxArea">
+        <!--=================================M ain Slider=================================-->
+        <section class="custom-slider">
+          <div id="home-slider" class="xv_slider flexslider">
+            <ul class="slides">
+              <li class="xv_slide" data-slidebg="url('assets/demo-data/slide1.jpg')">
+                <div class="albumAction">
+                  <!-- <div class="container">
+                    <!-- <a class="btn btn-dark text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-play"></i> Preview
+
+                        </a>
+                    <a class="btn btn-default text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-cloud-download"></i> Buy Now
+
+                        </a>
+                   
+                  </div> -->
+                  <!-- </div>
+                <div class="flex-caption">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-3 slide-visual">
+                        <figure class="fadeInLeft animated">
+                          <img src="assets/demo-data/s1.jpg" alt="">
+                        </figure>
+                      </div>
+                      <!--column-->
+                  <!-- <div class="col-xs-12 col-sm-6 col-md-6 about-album">
+                        <div class="animated fadeInRight">
+                          <h2>Mercurio</h2>
+                          <h6>by emis killa</h6>
+                          <p>
+                            <strong>The Brand New album of rapper emis killa.</strong>
+                            <br>Buy the new album or listen 30 sec.
+                            <br>of all tracks!</p>
+                        </div>
+                      </div>
+                      <!--column-
+                    </div> -->
+                  <!--row-->
+                  <!-- </div>
+                </div>
+              </li>
+              <li class="xv_slide" data-slidebg="url('assets/demo-data/slide2.jpg')">
+                <div class="albumAction">
+                  <div class="container">
+                    <a class="btn btn-dark text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-play"></i> Preview
+
+                        </a>
+                    <a class="btn btn-default text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-cloud-download"></i> Buy Now
+
+                        </a>
+                  </div>
+                </div>
+                <div class="flex-caption">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-3 slide-visual">
+                        <figure class="fadeInLeft animated">
+                          <img src="assets/demo-data/s2.jpg" alt="">
+                        </figure>
+                      </div>
+                      <!--column-->
+                  <!-- <div class="col-xs-12 col-sm-6 col-md-6 about-album">
+                        <div class="animated fadeInRight">
+                          <h2>mitaric</h2>
+                          <h6>by Neith</h6>
+                          <p>
+                            <strong>The Brand New album of rapper emis killa.</strong>
+                            <br>Buy the new album or listen 30 sec.
+                            <br>of all tracks!</p>
+                        </div>
+                      </div>
+                      <!--column-->
+                  <!-- </div>
+                  </div>
+                </div>
+              </li>
+              <li class="xv_slide" data-slidebg="url('assets/demo-data/slide3.jpg')">
+                <div class="albumAction">
+                  <div class="container">
+                    <a class="btn btn-dark text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-play"></i> Preview
+
+                        </a>
+                    <a class="btn btn-default text-uppercase text-bold" href="#">
+
+                            <i class="fa fa-cloud-download"></i> Buy Now
+
+                        </a>
+                  </div>
+                </div>
+                <div class="flex-caption">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-3 slide-visual">
+                        <figure class="fadeInLeft animated">
+                          <img src="assets/demo-data/s2.jpg" alt="">
+                        </figure>
+                      </div>
+                      <!--column-->
+                  <!-- <div class="col-xs-12 col-sm-6 col-md-6 about-album">
+                        <div class="animated fadeInRight">
+                          <h2>mitaric</h2>
+                          <h6>by Neith</h6>
+                          <p>
+                            <strong>The Brand New album of rapper emis killa.</strong>
+                            <br>Buy the new album or listen 30 sec.
+                            <br>of all tracks!</p>
+                        </div>
+                      </div> 
+                      <!--column-
+                    </div> 
+                  </div>
+                </div> --></div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--=================================A lbums Section=================================-->
+        <section>
+          <!--section header-->
+          <div class="container">
+            <div class="search-filters text-uppercase text-bold">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-7 text-right">
+                  <div class="search-actions"></div>
+                </div>
+              </div>
+            </div>
+            <!--row-->
+          </div>
+          <!--container-->
+          <!--container-->
+        </section>
+        <!--=================================================T OP songs /Trendding
+        This week / Featured Songs==================================================-->
+        <section>
+          <h1 class="text-center">Chat</h1><header></header>
+          <!--section header-->
+          <div class="container">
+            <div class="search-filters text-uppercase text-bold">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-7 text-right">
+                  <div class="search-actions"></div>
+                </div>
+              </div>
+              <!--row-->
+            </div>
+          </div>
+          <!--container-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 text-center">
+                        <pre>                          <code>
+                            <div id="rjp-chat"></div>
+                          </code>
+                        </pre>
+                      </div>
+                    </div><div class="row"><div class="col-md-12"><div class="container"><div class="row"><div class="col-md-12"><div class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> <form role="form" class="text-center"><div class="form-group"><label class="control-label" for="exampleInputEmail1">Email address</label><input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email"></div><div class="form-group"><label class="control-label" for="exampleInputPassword1">Password</label><input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password"></div><button type="submit" class="btn btn-default">Submit</button></form><h1 class="text-center">Subscribe</h1> </div></div><div class="row"> <div class="col-md-offset-3 col-md-6"> <form role="form"> <div class="form-group"> <div class="input-group"> <input type="text" class="form-control" placeholder="Enter your email"> <span class="input-group-btn"> <a class="btn btn-success" type="submit">Go</a> </span> </div></div></form> </div></div></div></div></div></div></div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--=================================================T weets==================================================-->
+        <!--parallax-->
+        <!--=================================================L atest News==================================================-->
+        <section></section>
+        <!--=================================E vents/concerts=================================-->
+        <!--=================================================C ontact==================================================-->
+        <section></section>
+      </div>
+      <!--=================================F ooter=================================-->
+      <footer class="doc-footer text-uppercase text-center">
+        <div class="container">
+          <ul class="social-list style2 circular">
+            <li>
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-google-plus"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-tumblr"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-instagram"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-dribbble"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-tumblr"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-vimeo"></a>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-xs-12">
+              <strong>© Copyright 2016 Africa U Radio</strong>
+              <p>on suono you can listen to thousands songs and buy your favorite songs
+                or albums.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--=================================S cript Source=================================-->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/ajaxify.min.js"></script>
+    <script src="assets/js/jquery.downCount.js"></script>
+    <script src="assets/js/jquery.datetimepicker.full.min.js"></script>
+    <script src="assets/js/jplayer/jquery.jplayer.min.js"></script>
+    <script src="assets/js/jplayer/jplayer.playlist.min.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/jquery.waitforimages.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/packery.pkgd.min.js"></script>
+    <script src="assets/js/tweetie.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;ver=3.0"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/customizer.js"></script>
+    <script src="http://www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js" type="text/javascript"></script>
+    <script>
+      rjq('#rjp-chat').radiojar('chatProvider', {
+                                           streamname: "2eqrw5965twtv",
+                                           width: 600,              // width of chat container in pixels (default is 700 pixels)
+                                           height:300,              // height of chat container in pixels (default is 900 pixels)
+                                           frameborder:false,       // show frameborder or not (default is false) 
+                                           scrolling:"auto",        // yes, no, auto (default is no)
+                                           cssfile:""               // your own custom css file url
+                                       });
+    </script>
+    <script src="http://www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js" type="text/javascript"></script>
+    <script>
+      rjq('#rjp-radiojar-player').radiojar('player', {
+                                        "streamName": "2eqrw5965twtv",
+                                        "enableUpdates": true,
+                                        "defaultImage": "http://radiojar.com/img/sample_images/Radio_Stations_Avatar_BLUE.png",
+                                        "autoplay":false
+                                       });
+                                       rjq('#rjp-radiojar-player').off('rj-track-load-event');
+                                       rjq('#rjp-radiojar-player').on('rj-track-load-event', function(event, data) {
+                                         updateInfo(data);
+                                         if (data.title != "" || data.artist != "") {
+                                           rjq('.rjp-trackinfo-container').show();
+                                           rjq('#trackInfo').html(data.artist + ' - "' + data.title + '"')
+                                         } else {
+                                           rjq('.rjp-trackinfo-container').hide();
+                                         }
+                                       });
+                                      
+                                       function updateInfo(data) {
+                                         if (data.thumb) {
+                                           rjq('#rj-cover').html('<a href="#"><img src="' + data.thumb + '" alt="" title="" /></a>')
+                                         } else {
+                                           rjq('#rj-cover').html('')
+                                         }
+                                       }
+    </script>
+    <script src="http://www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js" type="text/javascript"></script>
+    <script>
+      rjq('#rjp-currentshow').radiojar('currentShow', {
+                            		streamname: "2eqrw5965twtv",
+                             	});
+                            	
+                             	rjq('#rjp-currentshow').off('rj-show-change-event');
+                             	rjq('#rjp-currentshow').on('rj-show-change-event', function (event, data) {
+                            	     if (data) {
+                            	         rjq('.element-show-current').attr('style', 'display:block;background-image: url("http://www.radiojar.com/content/shows/' + data.key + '/cover/")');
+                            	         rjq('#show-title').html(data.title);
+                            		 rjq('#show-tagline').html(data.tagline);
+                            	         rjq('#host-info').empty();
+                            	         rjq('#host-info').append('<li class="host-label">with:</li>');
+                            	         for (x in data.host_profiles) {
+                            	             rjq('.host-label').after('<li class="rjp-show-host"><img class="rjp-show-host-thumb" src="http://www.radiojar.com/content/users/' + data.host_profiles[x].id + '/image/?resize=small"> ' + data.host_profiles[x].dj_info.nickname + ' </li>')
+                            	         }
+                            	     } else {
+                            	         rjq('.element-show-current').attr('style', 'display:none;')
+                            	     }
+                             });
+    </script>
+  
+
+</body></html>
